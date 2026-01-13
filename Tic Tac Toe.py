@@ -323,7 +323,6 @@ elif playStyle == 2:
     while True:
         player_pick = input(f"Player {current_player}, pick a number: ")
 
-        # ===== ADDED CODE =====
         if player_pick == "1" and one not in ["X", "◯"]:
             one = current_player
         elif player_pick == "2" and two not in ["X", "◯"]:
