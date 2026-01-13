@@ -285,6 +285,7 @@ if playStyle == 1:
             elif one == two == three == '◯' or four == five == six == '◯' or seven == eight == nine == '◯' or one == four == seven == '◯' or two == five == eight == '◯' or three == six == nine == '◯' or one == five == nine == '◯' or three == five == seven == '◯':
                 print("you lose!")
                 break
+            # თაზოს კოდი
 elif playStyle == 2:
 
     one = 1
